@@ -23,5 +23,6 @@ services:
       DDBB_HOST: postgres
       DDBB_PASSWORD: 1234
       PRODUCCION: $PRODUCCION
+      PHP_USER_ID: $USERID
     ports:
       - '8000:80'
